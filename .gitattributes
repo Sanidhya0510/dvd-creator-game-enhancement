@@ -1,0 +1,10 @@
+# Configuration for git attributes
+*.yml linguist-detectable=false
+*.bat text eol=crlf
+src/**/*.tsx linguist-detectable
+
+examples/site/index.html linguist-vendored  
+*.woff binary 
+*.min.js linguist-generated
+
+*.png binary
